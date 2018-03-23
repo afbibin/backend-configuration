@@ -6,3 +6,6 @@ spring:
       port: 27017
   profiles:
     active: production
+application:
+  document-parser:
+    fail-on-unknown-attribute: false
